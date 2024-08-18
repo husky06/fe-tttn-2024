@@ -27,7 +27,7 @@ export default function LoginPage() {
 			<form action={formAction}>
 				<div className="w-full surface-card py-8 px-5 sm:px-8" style={{ borderRadius: '53px' }}>
 					<div className="text-center mb-5">
-						<div className="text-900 text-3xl font-medium mb-3">Welcome, Cao Đẳng Quảng Nam Dashboard</div>
+						<div className="text-900 text-3xl font-medium mb-3">Welcome</div>
 						<span className="text-600 font-medium">Sign in to continue</span>
 					</div>
 

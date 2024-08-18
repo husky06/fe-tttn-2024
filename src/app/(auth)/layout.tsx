@@ -1,5 +1,7 @@
 
+import Layout from '@/layout/layout';
 import MainLayout from '@/layout/main-layout/main-layout';
+
 import { CookiesProvider } from 'next-client-cookies/server';
 
 interface AppLayoutProps {

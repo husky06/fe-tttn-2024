@@ -18,7 +18,7 @@ export async function submitMultiForm(url: string, formData: FormData) {
     return await submitMultiFormServer(url, formData);
 }
 
-export async function callPostRequest(url: string, body: any) {
+export async function callPostRequest(url: string, body: any, p0?: { headers: { 'Content-Type': string; }; }) {
     return await callPostRequestServer(url, body);
 }
 
